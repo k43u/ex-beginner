@@ -6,7 +6,7 @@
 </head>
 <body>
  <h1>足し算結果画面</h1>
- <span th:text=${num1}></span>+<span th:text="{session.num2}"></span>=<span th:text=${session.result}>結果</span><br>
+ <span th:text="${session.num1}">number</span> + <span th:text="${session.num2}">number</span> = <span th:text="${session.result}">結果</span><br>
  <a href="exam02-result2.html"
     th:href="@{/exam02/to-page2}">
  次へ</a>

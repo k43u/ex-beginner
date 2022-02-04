@@ -7,8 +7,8 @@
 <body>
  <h1>数字を入れてください。</h1>
  <form action="exam02-result.html"
-      th:action="${exam02/add}" method="post">
-  <input name="num1" type="text">+<input name="num2" type="text">=<br>
+      th:action="@{exam02/add}" method="post">
+  <input name="num1" type="text">+<input name="num2" type="text"> =<br>
   <button>足し算をする</button>
  </form>
 </body>
