@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+名前: <span th:text="${session.user.name}"></span><br>
+年齢: <span th:text="${session.user.age}"></span><br>
+コメント:<span th:text="${session.user.comment}"></span>
+</body>
+</html>
